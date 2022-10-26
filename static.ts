@@ -59,3 +59,8 @@ undefined
 */
 console.log(s1.displayFn());
 console.log(s2.displayFn());
+
+//https://www.youtube.com/watch?v=OH3wSkKy4YE
+//https://www.youtube.com/watch?v=dqpwgss-Q14
+//https://www.youtube.com/watch?v=srRu2MvdcSI
+// https://medium.com/@sudarshanadayananda/how-to-live-reload-typescript-node-server-bc40171fdb7
