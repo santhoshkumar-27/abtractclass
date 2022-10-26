@@ -1,9 +1,9 @@
-interface emp1 {
+export declare interface emp1 {
     // initialName: 'santhoshk'; //static variable
     disname(): void; // method declaration without definition
 }
 //As a interface we can achieve the full abstract class that only have method declaration
-interface emp2 {
+export declare  interface emp2 {
     disId(): void;
 }
 class displayName1 implements emp1, emp2 {
