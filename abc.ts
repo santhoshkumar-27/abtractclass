@@ -9,6 +9,7 @@ abstract class employee {
 // we can now create object using from derived class, which as a method of abstract class
 /*
     Abstraction (abstract - keyword)
+    abstraction means data hiding show only essential things
     -> Abstract method only have declaration
     -> Definition will be written in the derived class
     -> Abstract class have atleast one abstract method
