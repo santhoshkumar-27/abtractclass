@@ -1,0 +1,25 @@
+{
+  "name": "abtractclass",
+  "version": "1.0.0",
+  "description": "learning purpose",
+  "main": "abstract.js",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon interface.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santhoshkumar-27/abtractclass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santhoshkumar-27/abtractclass/issues"
+  },
+  "homepage": "https://github.com/santhoshkumar-27/abtractclass#readme"
+}
