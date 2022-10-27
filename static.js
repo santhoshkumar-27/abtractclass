@@ -1,3 +1,5 @@
+var _a;
+var _this = this;
 var stud = /** @class */ (function () {
     function stud() {
     }
@@ -9,6 +11,10 @@ var stud = /** @class */ (function () {
     };
     return stud;
 }());
+_a = stud;
+(function () {
+    _a.studentTeacher = 'mario'; // this static block will be called during class initialization so that we don't want to create a object for this
+})();
 //  .*. consider
 // studentTeacher is same for all student
 var s1 = new stud();
@@ -27,7 +33,7 @@ s2.studentAge = 23;
         2) and object.property;
 */
 // s1.studentTeacher = 'Mario'; // not suitable in ts, but same in java
-stud.studentTeacher = 'Mario'; //using class.staticproperty we can give values
+// stud.studentTeacher = 'Mario'; //using class.staticproperty we can give values
 /*
 ass$ node static.js
 Student name is  santhoshkumar
@@ -39,7 +45,7 @@ Student age is  23
 Student teacher is  Mario
 undefined
 */
-stud.studentTeacher = 'despacito';
+// stud.studentTeacher = 'despacito'; 
 /*
 ass$ node static.js
 Student name is  santhoshkumar

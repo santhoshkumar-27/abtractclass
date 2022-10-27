@@ -10,6 +10,9 @@ class stud {
         // console.log('Student teacher is ', this.studentTeacher);
         console.log('Student teacher is ', stud.studentTeacher);
     }
+    static {
+        this.studentTeacher = 'mario' // this static block will be called during class initialization so that we don't want to create a object for this
+    }
 }
 //  .*. consider
 // studentTeacher is same for all student
@@ -33,7 +36,11 @@ s2.studentAge = 23;
         2) and object.property;
 */
 // s1.studentTeacher = 'Mario'; // not suitable in ts, but same in java
-stud.studentTeacher = 'Mario'; //using class.staticproperty we can give values
+// stud.studentTeacher = 'Mario'; //using class.staticproperty we can give values
+
+
+
+
 /*
 ass$ node static.js
 Student name is  santhoshkumar
@@ -45,7 +52,11 @@ Student age is  23
 Student teacher is  Mario
 undefined
 */
-stud.studentTeacher = 'despacito';
+// stud.studentTeacher = 'despacito'; 
+
+
+
+
 /*
 ass$ node static.js
 Student name is  santhoshkumar
@@ -57,10 +68,7 @@ Student age is  23
 Student teacher is  despacito
 undefined
 */
+
+
 console.log(s1.displayFn());
 console.log(s2.displayFn());
-
-//https://www.youtube.com/watch?v=OH3wSkKy4YE
-//https://www.youtube.com/watch?v=dqpwgss-Q14
-//https://www.youtube.com/watch?v=srRu2MvdcSI
-// https://medium.com/@sudarshanadayananda/how-to-live-reload-typescript-node-server-bc40171fdb7

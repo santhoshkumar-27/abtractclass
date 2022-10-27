@@ -9,7 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon interface.ts",
+    "wa": "tsc --watch static.ts",
+    "start": "nodemon static.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
